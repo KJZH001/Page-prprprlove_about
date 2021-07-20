@@ -1,4 +1,6 @@
-预览地址 https://about.moeworld.top/
+本仓库已存档
+
+请访问 https://github.com/KJZH001/Page-prprprlove_Revise
 
 ## 版权说明
 
