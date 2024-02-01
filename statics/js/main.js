@@ -18,7 +18,7 @@ function getAchives(){
     t = ``;
     $.ajax({
         type:"GET",
-        url:"https://blog.moeworld.tech/My_json.php",
+        url:"https://blog.moeworld.tech/article_json.php",
         dataType:"json",
         success:function(json){
             for(var i = 0;i < json.length;i++){
