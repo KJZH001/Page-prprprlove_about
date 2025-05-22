@@ -35,7 +35,7 @@ function getAchives(){
 function gethitokoto(){
     $.ajax({
         type:"POST",
-        url:"https://v1.hitokoto.cn/?encode=json",
+        url:"https://api.moedog.org/hitokoto/?encode=json",
         dataType:"json",
         success:function(result){
             write(result.hitokoto);
