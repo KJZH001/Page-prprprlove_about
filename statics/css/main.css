@@ -21,7 +21,7 @@ body{font-family:Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica Neue,Helveti
 .bak,body{height:100%;background-size:cover}
 .bak{width:100%;position:fixed;left:0;top:0}
 main{position:relative}
-main .content{display:flex;margin:2em 1em;background:hsla(0,0%,100%,.8);text-align:center;border-radius:5px;animation:content .5s 2.2s both;box-shadow:0 0 20px rgba(0,0,0,.2);overflow:hidden;width:50em;height:30em}
+main .content{display:flex;margin:2em 1em;background:hsla(0,0%,100%,.8);text-align:center;border-radius:5px;animation:content .5s 2.2s both;box-shadow:0 0 20px rgba(0,0,0,.2);overflow:hidden;width:50em;min-height:30em}
 /* Left Box */
 .left{width:20%;background:rgba(0,187,255,.7);padding:1em;display:flex;flex-direction:column}
 .left .avatar img{border-radius:100%;border:5px solid #fff}
